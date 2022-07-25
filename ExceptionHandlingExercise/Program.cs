@@ -41,6 +41,9 @@ namespace ExceptionHandlingExercise
                     str = i.ToString();
                     int whatever = int.Parse(str);
                     numbers.Add(whatever);
+
+                    //int whatever = int.Parse(i.ToString());
+                    //numbers.Add(whatever);
                 }
                 catch (Exception e)
                 {
